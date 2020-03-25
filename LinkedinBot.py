@@ -32,7 +32,7 @@ class LBot():
         my_network_btn.click()
 
     def click_on_profiles(self):
-        while 1:
+        for i in range(100):
             try:
                 self.goto_my_network()
 
@@ -51,6 +51,6 @@ class LBot():
 
 
 bot=LBot()
-bot.login()
+#bot.login()
 #sleep(3)
 #bot.click_on_profiles()
